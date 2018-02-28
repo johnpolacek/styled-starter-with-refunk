@@ -5,7 +5,7 @@ import Counter from '../components/Counter'
 
 export default (props) => (
 	<Box>
-		<Box p={6} mw="1200px" mx="auto" align="center">
+		<Box p={[4,4,5,6]} mw="1200px" mx="auto" align="center">
 			<H2 pt={5}>Styled Starter Basic</H2>
 			<H3 pb={4}>with <A color="blue" href="https://github.com/jxnblk/refunk">Refunk</A></H3>
 			<Counter />
